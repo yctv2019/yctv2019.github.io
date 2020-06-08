@@ -1,0 +1,71 @@
+@font-face { font-family: 'Katuri'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/Katuri.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Eoe_Zno_B'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_B.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'ChosunSg'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunSg.woff') format('woff'); font-weight: normal; font-style: normal; }
+.navbar-dark .navbar-toggler {
+    border: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+button:focus {
+    outline: none;
+}
+
+.navbar-brand {
+    font-family: 'Katuri';
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 17px;
+}
+
+@media screen and (min-width: 992px){
+    .navbar {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .mtitle {
+        font-size: 70px;
+    }
+}
+.navbar-nav {
+    font-family: 'ChosunSg';
+}
+.bg {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(180deg, #101010 70%, #1F002F);
+}
+
+.mtitle {
+    color: white;
+    font-family: 'Eoe_Zno_B';
+}
+.mmtitle {
+    color: white;
+    font-family: 'ChosunSg';
+    font-weight: lighter;
+    
+}
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+.scroll {
+    color: white;
+    animation-name: loop;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.char {
+    width: 10vw;
+    height: 10vw;
+    background: white;
+    border-radius: 20vw;
+}
